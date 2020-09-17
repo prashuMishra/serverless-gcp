@@ -4,7 +4,7 @@ const express = require('serverless-express/express');
  
 const app = express();
 app.get('/login', (req, res) => {
-  res.send({message:"Welcome to Serverless express!!"})
+  res.send({message:"Welcome to Serverless express!!!"})
 });
 
 module.exports.server = app;
